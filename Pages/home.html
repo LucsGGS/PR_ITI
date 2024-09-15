@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="site1-tyle.css">
+    <title>Iti Projeto</title>
+</head>
+<body>
+
+    <!--Menu de navegação-->
+    <header>
+        <nav>
+            <div id="divmenu-1">
+                <a href="home.html"><img src="Imagens/MicrosoftTeams-image-6.avif" alt="logo iti" height="50px" width="50px"></a>
+            </div>
+            <div id="divmenu-2">
+                <a href="Page1.html" class="asmenu"><button class="btsmenu">Conta Digital</button></a>
+                <a href="Page2.html" class="asmenu"><button class="btsmenu">Cartão de Crédito</button></a>
+                <a href="Ajuda.html" style="margin-left: 600px;"><button class="btsmenu">Ajuda</button></a>
+            </div>
+        </nav>
+    </header>
+
+    <!--Sessão de login-->
+    <div id="parte0">
+        <h1 class="titulos" style="font-size: 50px; color: white; float: left; padding-top: 200px; padding-left: 300px;">
+            iti, o banco digital grátis<br> com a segurança do Itaú</h1>
+            <div id="parte0-log">
+                 <p class="subtitulos" style="margin-top: 20px; font-size: 40px;">crie sua conta<br> em 4 minutos</p>
+                 <input type="text" class="inputs" id="cpf" style="margin-left: 25px; margin-bottom: 5px;" placeholder="Digite seu CPF">
+                 <div id="res"></div>
+                 <button id="btn-log" onclick="verificar()">Abra sua conta gratis</button>
+                 
+            </div>
+    </div>
+    <!--Sessão conta digital-->
+        <div id="parte1">
+            <img src="Imagens/celularimagem.avif" alt="celular iti" height="500px" width="500px" style="margin-left: 200px;">
+            <div id="parte1-item">
+                <h1 class="titulos">conta digital pensada pra<br> você</h1>
+                <p class="subtitulos">Aqui, você tem uma conta completa, com uma série<br>
+                     de funcionalidades e benefícios para tornar seu dia<br>
+                     a dia mais prático e seguro.</p>
+                <a href="criarcontapage.html" style="margin-left: 200px;">
+                        <button type="button" class="abrasuacontabtns">Abra sua conta</button></a>
+            </div>
+        </div>        
+    <!--Sessão CDI-->
+    <div id="parte2">
+        <img src="Imagens/mulherecartao.avif" alt="mulher com cartão" height="650px" width="500px" style="margin-left: 200px;">
+        <div id="parte2-item">
+                <h1 class="titulos">um mundo de vantagens<br> na palma da sua mão</h1>
+                <p class="subtitulos">Com o iti, você tem autonomia pra criar suas metas<br>
+                     com rendimento de 100% do CDI, e ficar mais perto<br>
+                      de seus objetivos. Você abre sua conta sem<br>
+                       burocracia e de forma fácil, em 4 minutos!</p>
+                <a href="criarcontapage.html" style="margin-left: 200px; margin-top: 10px;">
+                    <button type="button" class="abrasuacontabtns">Quero meu cartão</button></a> 
+        </div>
+    </div>
+    <!--Sessão cartão-->
+    <div id="parte3">
+            <img src="Imagens/backgroundimg.avif" alt="background1" width="1543px" height="400px">
+            <h1 class="titulos">cartão de crédito sem anuidade e com limite de até R$20 mil<br> sujeito à análise</h1>
+            <p class="subtitulos">Aprovou, usou na hora! Você começa a usar o cartão virtual pra compras online antes mesmo do cartão<br>
+                 físico chegar. Ah, e o cartão físico é aceito em qualquer maquininha!</p>
+            <a href="criarcontapage.html" style="margin-left: 650px;">
+                <button type="button" class="abrasuacontabtns">Quero meu cartão</button></a>    
+    </div>
+    <!--Sessão mundo iti-->
+    <div id="parte4">
+        <img src="Imagens/mulhercomsacoloa.avif" height="600px" width="400px" style="float: right; padding-right: 300px;">
+        <h1 style="color: rgb(255, 0, 85); padding-top: 150px;" class="titulos">mundo iti: porque a vida<br>não é só pagar boleto</h1>
+        <p class="subtitulos">Só quem é cliente iti tem acesso a benefícios<br> exclusivos. Aproveite o seu mundo iti!</p>
+        <a href="criarcontapage.html" style="margin-left: 270px;">
+            <button type="button" class="abrasuacontabtns">Abra sua conta</button></a>
+    </div>                               
+    <!--Sessão ajuda-->
+    <div id="parte5">
+        <h1 class="titulos">iti é o banco que ajuda você a chegar lá</h1>
+        <p class="subtitulos">Pode contar com a gente para conquistar os seus objetivos!</p>
+        <div id="itens">
+            <div class="item" style="background-image: url(Imagens/mine1.webp);">
+                <h1 class="item-titulo">segurança do Itaú pra você ir com tranquilidade</h1>
+                <p class="item-text">A gente protege seu dinheiro com toda nossa tecnologia.</p>
+            </div>
+            <div class="item" style="background-image: url(Imagens/mine2.webp);">
+                <h1 class="item-titulo">sem taxas escondidas, tudo transparente</h1>
+                <p class="item-text">Aqui você se livra da anuidade e das letras miúdas.</p>
+            </div>
+            <div class="item" style="background-image: url(Imagens/mine3.webp);">
+                <h1 class="item-titulo">cartão para todas as pessoas e para o mundo</h1>
+                <p class="item-text">Nossos cartões são reciclados e vêm com braile.</p>
+            </div>
+        </div>
+    </div>
+    <!--Sessão baixe o app-->
+    <img src="Imagens/manwithcelphone.avif" alt="homem com um celular"  height="480px" width="500px" style="margin-left: 50px;">
+    <div id="parte6">
+        <h1 class="titulos" style="margin-top: 150px;">baixe o app, abra sua conta em 4<br> minutos e vá com tudo!</h1>
+        <a href="#"><button class="appsbtns" style="margin-left: 230px;">Disponível na App Store</button></a>
+        <a href="#"><button class="appsbtns">Disponível na Gloogle Play</button></a>
+    </div>
+    <!--Sessão rodapé-->
+    <div id="parte7">
+        <div>
+            <img src="Imagens/logo_endosso_branco.png" alt="logo branca" style="margin-top: 70px; margin-left: 200px;"> 
+        </div>
+        <div>
+            <a href="" class="elements-rodape">Conta Digital</a>
+            <a href="">Cartão de Crédito</a>
+            <a href="">Trabalhe no Iti</a>
+            <a href="">Termos de uso</a>
+            <a href="">Ajuda</a>
+        </div>  
+    </div>
+
+    <script src="home.js" defer></script>
+</body>
+</html>

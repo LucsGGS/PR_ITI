@@ -1,0 +1,246 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+/*Padronizações da home*/
+header {
+    height: 70px;
+    width: 1540px;
+    position: fixed;
+}
+/*Padronização dos botões*/
+.abrasuacontabtns {
+    height: 50px;
+    width: 300px;
+    border-radius: 20px;
+    border-color: orange;
+    border-style: solid;
+    color: white;
+    background-color: orange;
+}
+
+.abrasuacontabtns:hover {
+    background-color: white;
+    color: orange;
+}
+
+/*Padronização dos titulos(da home)*/
+.titulos {
+    color: rgb(255, 115, 0);
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px
+}
+
+/*Padronização dos subtitulos*/
+.subtitulos {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 30px
+}
+
+/*Padronização dos botões de donwload do app*/
+.appsbtns {
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    border-color: #232d3e;
+    border-style: solid;
+    color: white;
+    background-color: #232d3e;
+}
+/*Padronização dos inputs*/
+.inputs {
+    border-bottom: 2px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #232d3e;
+    outline: none;
+}
+/*Menu de Navegação*/
+header {
+    height: 70px;
+    width: 1540px;
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+#divmenu-1 {
+    margin-left: 300px;
+    margin-right: 30px;
+
+}
+
+#divmenu-2 {
+    height: 50px;
+    width: 1000px;
+}
+
+.asmenu {
+    margin-right: 20px;
+}
+
+.btsmenu {
+    margin-top: 15px;
+    border: none;
+    background-color: white;
+
+}
+
+.btsmenu:hover {
+    border-bottom: 3px solid;
+    border-color: rgb(240, 47, 144);
+}
+
+/*Painel de Login*/
+#parte0 {
+    background-image: url(Imagens/home-1-img1_1920x650.avif);
+    height: 600px;
+    width: 1540px;
+    background-color: #232d3e;
+    margin-bottom: 50px;
+}
+
+    /*Elemento filho da parte0*/
+    #parte0-log {
+        height: 300px;
+        width: 300px;
+        background-color: white;
+        float: right;
+        margin-top: 150px;
+        margin-right: 250px;
+        border-radius: 20px;
+}
+
+#res {
+    height: 40px;
+    width: 200px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: red;
+}
+
+#btn-log {
+    height: 50px;
+    width: 250px;
+    margin-left: 25px;
+    border-radius: 20px;
+   border-color: #b8bdc5;
+   border-style: solid;
+   background-color: #b8bdc5;
+   color: white;
+}
+
+#btn-log:hover {
+    border-color: orange;
+    color: orange;
+}
+
+/*Parte 1 da home*/
+#parte1 {
+    height: 500px;
+    width: 1540px;
+    margin-bottom: 50px;
+}
+    /*Elemento filho da parte1*/
+        #parte1-item {
+                height: 500px;
+                width: 700px;
+                float: right;
+                margin-right: 100px;
+        }
+
+/*Parte 2 da home*/
+#parte2 {
+    height: 600px;
+    width: 1540px;
+    margin-bottom: 50px;
+}
+
+    /*Elemento filho da parte2*/
+    #parte2-item {
+        height: 500px;
+        width: 700px;
+        float: right;
+        margin-top: 50px;
+        margin-right: 100px;
+    }
+
+/*Parte 3 da home*/
+#parte3{
+    height: 700px;
+    margin-bottom: 20px;
+}
+
+
+/*Parte 4 da home*/
+#parte4 {
+    height: 600px;
+    width: 1540px;
+    background-color: whitesmoke;
+    margin-bottom: 50px;
+}
+
+/*Parte 5 da home*/
+#parte5 {
+    height: 600px;
+    width: 1540px;
+}
+    /*Div container da parte 5 e os elementos filhos*/
+    #itens {
+        display: flex;
+        position: absolute;
+        left: 320px;
+        height: 400px;
+        width: 900px;
+    }
+        .item {
+            height: 350px;
+            width: 300px;
+            margin-left: 35px;
+            margin-top: 50px;
+            background-size: 250px; 
+            background-repeat: no-repeat;
+        }
+
+        .item-titulo {
+            color: rgb(255, 115, 0);
+            text-align: center;
+            margin-top: 250px;
+            margin-right: 30px;
+            font-size: 16px;
+        }
+
+        .item-text {
+            font-size: 15px;
+            margin-right: 30px;
+            margin-top: 5px;
+            text-align: center;
+        }
+/*Parte 6 da home*/
+#parte6 {
+    float: right;
+    height: 475px;
+    width: 900px;
+}
+
+/*rodapé*/
+#parte7 {
+    display: flex;
+    flex: row;
+    height: 700px;
+    width: 1540px;
+    background-color: #232d3e;
+}
